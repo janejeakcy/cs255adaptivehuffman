@@ -1,0 +1,1 @@
+This is an adaptive Huffman encoding and decoding using FGK and Vitter.
