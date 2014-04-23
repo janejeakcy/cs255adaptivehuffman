@@ -685,7 +685,7 @@ FGKDECODER *FGKDecoderAlloc(void *stream, int IsFile)
 {
 	FGKDECODER *decoder;
 
-	if ((decoder = (FGKENCODER *) malloc (sizeof(FGKENCODER))) == NULL)
+	if ((decoder = (FGKDECODER *) malloc (sizeof(FGKDECODER))) == NULL)
 	{
 		printf("FGKDecoderAlloc(): fail to allocate fgk decoder.\n");
 		return NULL;

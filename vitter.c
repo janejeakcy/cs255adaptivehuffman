@@ -802,7 +802,7 @@ VITTERDECODER *VITTERDecoderAlloc(void *stream, int IsFile)
 {
 	VITTERDECODER *decoder;
 
-	if ((decoder = (VITTERENCODER *) malloc (sizeof(VITTERENCODER))) == NULL)
+	if ((decoder = (VITTERDECODER *) malloc (sizeof(VITTERDECODER))) == NULL)
 	{
 		printf("VITTERDecoderAlloc(): fail to allocate VITTER decoder.\n");
 		return NULL;

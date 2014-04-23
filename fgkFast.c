@@ -654,7 +654,7 @@ FGKFASTDECODER *FGKFASTDecoderAlloc(void *stream, int IsFile)
 {
 	FGKFASTDECODER *decoder;
 
-	if ((decoder = (FGKFASTENCODER *) malloc (sizeof(FGKFASTENCODER))) == NULL)
+	if ((decoder = (FGKFASTDECODER *) malloc (sizeof(FGKFASTDECODER))) == NULL)
 	{
 		printf("FGKFASTDecoderAlloc(): fail to allocate FGKFAST decoder.\n");
 		return NULL;

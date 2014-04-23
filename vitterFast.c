@@ -762,7 +762,7 @@ VITTERFASTDECODER *VITTERFASTDecoderAlloc(void *stream, int IsFile)
 {
 	VITTERFASTDECODER *decoder;
 
-	if ((decoder = (VITTERFASTENCODER *) malloc (sizeof(VITTERFASTENCODER))) == NULL)
+	if ((decoder = (VITTERFASTDECODER *) malloc (sizeof(VITTERFASTDECODER))) == NULL)
 	{
 		printf("VITTERFASTDecoderAlloc(): fail to allocate VITTERFAST decoder.\n");
 		return NULL;
